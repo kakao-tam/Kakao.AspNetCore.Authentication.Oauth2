@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageReadmeFile>readme.md</PackageReadmeFile>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Microsoft.AspNetCore.Authentication" />
+    <None Remove="Microsoft.AspNetCore.Authentication.OAuth" />
+    <None Remove="Properties\" />
+    <None Remove="Newtonsoft.Json" />
+    <None Remove="Claims\" />
+    <None Remove="Events\" />
+    <None Remove="OAuth2\" />
+    <None Remove="licenses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Properties\" />
+    <Folder Include="Claims\" />
+    <Folder Include="Events\" />
+    <Folder Include="OAuth2\" />
+    <Folder Include="licenses\" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.Authentication" Version="2.2.0" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="icon.png">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="readme.md">
+      <Pack>true</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+</Project>
