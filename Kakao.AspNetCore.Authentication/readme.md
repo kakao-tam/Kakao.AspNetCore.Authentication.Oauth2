@@ -1,4 +1,4 @@
-﻿Kakao.AspNetCore.Authentication.Oauth2
+﻿Kakao.AspNetCore.Authentication.Oauth2 (.net 5.0)
 ===========================
 
 **This GitHub project has been archived.** Ongoing development on this project can be found in <https://github.com/kakao-tam/Kakao.AspNetCore.Authentication.Oauth2>.
